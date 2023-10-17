@@ -34,11 +34,8 @@ This project uses an opinionated file structure discussed in this blog post: [**
 Install via NPM:
 
 ```bash
-# Using Yarn:
-$ yarn global add new-component
-
-# or, using NPM
-$ npm i -g new-component
+# Using Pnpm:
+$ pnpm add -g new-component
 ```
 
 `cd` into your project's directory, and try creating a new component:
@@ -122,7 +119,7 @@ This has only been tested in macOS. I think it'd work fine in linux, but I haven
 To get started with development:
 
 - Fork and clone the Git repo
-- `cd` into the directory and install dependencies (`yarn install` or `npm install`)
+- `cd` into the directory and install dependencies (`pnpm install`)
 - Set up a symlink by running `npm link`, while in the `new-component` directory. This will ensure that the `new-component` command uses this locally-cloned project, rather than the global NPM installation.
 - Spin up a test React project.
 - In that test project, use the `new-component` command to create components and test that your changes are working.
