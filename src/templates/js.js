@@ -1,7 +1,9 @@
 import React from 'react';
 
-function COMPONENT_NAME() {
-  return <div></div>;
-}
+export const COMPONENT_NAME = (props) => {
+  return (
+    <div>
 
-export default COMPONENT_NAME;
+    </div>
+  )
+}
