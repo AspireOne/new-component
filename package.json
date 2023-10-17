@@ -1,5 +1,5 @@
 {
-  "name": "new-component-ts",
+  "name": "new-component-cli",
   "version": "6.0.0",
   "description": "CLI for creating new React components",
   "homepage": "https://github.com/aspireone/new-component",
